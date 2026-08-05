@@ -1,0 +1,173 @@
+body{
+  cursor:url("cursor-pack/cursor-0.png") 0 0, auto;
+}
+
+#bg-audio {
+  display: none;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: flex-start;
+  position: relative;
+  margin: 0;
+  gap: 0;
+}
+
+.frame .scene {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+  margin: 0;
+
+  z-index: 1;
+}
+
+.frame .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  z-index: 1;
+}
+
+.frame .scene-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+
+  z-index: 1;
+}
+
+.frame .care{
+  position: absolute;
+  top: 1342px;
+  left: 245px;
+
+  z-index: 3;
+}
+
+.frame .care-2{
+  position: absolute;
+  top: 1342px;
+  left: 245px;
+
+  z-index: 2;
+}
+
+.care:hover{
+  opacity: 0;
+}
+
+.frame .ignore{
+  position: absolute;
+  top: 1975px;
+  left: 1375px;
+
+  z-index: 3;
+}
+
+.frame .ignore-2{
+  position: absolute;
+  top: 1975px;
+  left: 1375px;
+
+  z-index: 2;
+}
+
+.ignore:hover{
+  opacity: 0;
+}
+
+.frame .green{
+  position: absolute;
+  top: 3500px;
+  left: 250px;
+
+  z-index: 3;
+}
+
+.frame .white{
+  position: absolute;
+  top: 3500px;
+  left: 250px;
+
+  z-index: 2;
+}
+
+.green:active{
+  opacity: 0;
+}
+
+.frame .time-2{
+  position: absolute;
+  top: 6075px;
+  left: 885px;
+
+  z-index: 3;
+}
+
+.frame .time{
+  position: absolute;
+  top: 6075px;
+  left: 885px;
+
+  z-index: 2;
+}
+
+.time-2:hover{
+  opacity: 0;
+}
+
+.frame .forever{
+  position: absolute;
+  top: 6195px;
+  left: 1105px;
+
+  z-index: 3;
+}
+
+.frame .forever-2{
+  position: absolute;
+  top: 6195px;
+  left: 1105px;
+
+  z-index: 2;
+}
+
+.forever:hover{
+  opacity: 0;
+}
+
+.frame .yellow{
+  position: absolute;
+  top: 9020px;
+  left: 1060px;
+
+  z-index: 3;
+}
+
+.frame .pink{
+  position: absolute;
+  top: 9020px;
+  left: 1060px;
+
+  z-index: 2;
+}
+
+.yellow:active{
+  opacity: 0;
+}
